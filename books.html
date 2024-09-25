@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><img src="assets/img/logo.png" alt="Bookstore Logo" class="logo"></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="books.html">Books</a></li>
+                <li><a href="cart.html">Cart & Wishlist</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Available Books</h2>
+        <div class="book-list">
+            <div class="book">
+                <h3>Book Title 1</h3>
+                <p>Description of Book 1.</p>
+                <button onclick="addToCart('Book Title 1')">Add to Cart</button>
+                <button onclick="addToWishlist('Book Title 1')">Add to Wishlist</button>
+            </div>
+            <div class="book">
+                <h3>Book Title 2</h3>
+                <p>Description of Book 2.</p>
+                <button onclick="addToCart('Book Title 2')">Add to Cart</button>
+                <button onclick="addToWishlist('Book Title 2')">Add to Wishlist</button>
+            </div>
+            <!-- Add more book entries as needed -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Pastel Bookstore</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,97 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Light background color */
+    color: #333; /* Dark text color */
+}
+
+header {
+    background-color: #f0e5f7; /* Light pastel purple */
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 150px; /* Adjust logo size */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333; /* Dark text color */
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #7a2b83; /* Darker purple on hover */
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #7a2b83; /* Dark purple */
+}
+
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.book {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    width: 200px; /* Set a fixed width for books */
+    background-color: #ffffff; /* White background for books */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.book h3 {
+    margin: 10px 0;
+}
+
+.btn {
+    background-color: #7a2b83; /* Button color */
+    color: white; /* Button text color */
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #5e1f65; /* Darker button color on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0e5f7; /* Light pastel purple */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
